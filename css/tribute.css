@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    box-sizing: border-box;
+    background-color: white;
+    height: 100%vh;
+    width: 100%;
+}
+main{
+    background-color: whitesmoke;
+    margin: 2% 2%;
+    border-radius: 10px;
+    padding: 5px 0 30px 0;
+    height: 100%;
+}
+header{
+    text-align: center;
+    margin: 2% auto;
+}
+h1{
+    margin-bottom: 10px;
+    font-weight: bolder;
+}
+header p{
+    font-weight: lighter;
+    color: rgb(54, 53, 53);
+}
+img{
+    display: block;
+    max-width: 100%;
+    margin: 10px auto;
+    margin-bottom: 20px;
+
+}
+#img-div{
+   text-align: center;
+   margin: 0 5%;
+   padding: 10px;
+   background-color: white;
+   border-radius: 10px;
+   color: rgb(54, 53, 53);
+}
+#img-div #img-caption{
+    margin: 10px 40px;
+}
+.timeline{
+    max-width: 600px;
+    margin: 30px auto;
+}
+.timeline h4{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.timeline ul li{
+    margin-bottom: 20px;
+    color: rgb(54, 53, 53);
+}
+.timeline ul li:last-of-type{
+    margin-bottom: 50px;
+}
+.borloug-life{
+    font-weight: lighter;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.more-about-borloug{
+    text-align: center;
+    color: black
+}
+

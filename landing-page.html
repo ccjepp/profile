@@ -1,0 +1,51 @@
+<DOCTYPE html>
+    <html lang="en">
+        <head>
+            <meta charset="utf-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0" / >
+            <link rel="stylesheet" href="css/landing-page.css" />
+        </head>
+        <body>
+            <header id="header">
+                <img id="header-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/FreeCodeCamp_logo.svg/2560px-FreeCodeCamp_logo.svg.png" 
+                alt="freeCodeCamp Logo".
+                height="30px">
+                <nav id="nav-bar">
+                    <ul>
+                        <li ><a class="nav-link" href="#about-us">Home</a></li>
+                        <li ><a class="nav-link" href="#about-us-video">About us</a></li>
+                        <li ><a class="nav-link" href="#contact-us">Contact us</a></li>                       
+                    </ul>
+                </nav>
+            </header>
+            <div class="main-div">
+                <div class="about-us" id="about-us">
+                    <h2><span>Online</span> <br><span>Education</span></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, veniam. Incidunt excepturi reiciendis magni corrupti repellat exercitationem dolorum amet labore sed temporibus dolores autem non molestias, distinctio voluptatem. Ex, quidem.</p>
+                </div>
+                <div class="about-us-video" id="about-us-video">
+                    <iframe 
+                        src="https://www.youtube.com/embed/9He4UBLyk8Y?list=PLWKjhJtqVAbmMuZ3saqRIBimAKIMYkt0E" 
+                        frameborder="0"
+                        style="border: 0;" 
+                        id="video"  
+                    ></iframe>
+                </div>
+                <div class="contact-us" id="contact-us">
+                        <h2>Contact Us</h2>
+                        <form action="https://www.freecodecamp.com/email-submit" method="post" id="form">
+                            <label for="name">Name:
+                                <input type="text" id="name">
+                            </label>
+                            <label for="email">Email:
+                                <input type="email" name="email" id="email" placeholder="example@email.com">
+                            </label>
+                            <textarea name="msg" id="" cols="30" rows="10" placeholder="Enter your message here"></textarea>
+                            <input type="submit" value="Submit" id="submit" />
+                        </form>
+                </div>
+            </div>
+            <footer></footer>
+      </body>
+      <footer id="footer"><p>© 2014-2023 freeCodeCamp,.</p></footer>
+    </html>
